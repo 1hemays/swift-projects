@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		205DA8532617818B001BFC8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205DA8522617818B001BFC8A /* AppDelegate.swift */; };
+		205DA8552617818B001BFC8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205DA8542617818B001BFC8A /* SceneDelegate.swift */; };
+		205DA8572617818B001BFC8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205DA8562617818B001BFC8A /* ViewController.swift */; };
+		205DA85A2617818B001BFC8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205DA8582617818B001BFC8A /* Main.storyboard */; };
+		205DA85C2617818D001BFC8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205DA85B2617818D001BFC8A /* Assets.xcassets */; };
+		205DA85F2617818D001BFC8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205DA85D2617818D001BFC8A /* LaunchScreen.storyboard */; };
+		205DA86A2617818D001BFC8A /* hustle_cloud_modeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205DA8692617818D001BFC8A /* hustle_cloud_modeTests.swift */; };
+		205DA8752617818D001BFC8A /* hustle_cloud_modeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205DA8742617818D001BFC8A /* hustle_cloud_modeUITests.swift */; };
+		205DA886261781A2001BFC8A /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 205DA885261781A2001BFC8A /* hustle-on.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		205DA8662617818D001BFC8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205DA8472617818B001BFC8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205DA84E2617818B001BFC8A;
+			remoteInfo = "hustle-cloud-mode";
+		};
+		205DA8712617818D001BFC8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205DA8472617818B001BFC8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205DA84E2617818B001BFC8A;
+			remoteInfo = "hustle-cloud-mode";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		205DA84F2617818B001BFC8A /* hustle-cloud-mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hustle-cloud-mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		205DA8522617818B001BFC8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		205DA8542617818B001BFC8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		205DA8562617818B001BFC8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		205DA8592617818B001BFC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		205DA85B2617818D001BFC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		205DA85E2617818D001BFC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		205DA8602617818D001BFC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205DA8652617818D001BFC8A /* hustle-cloud-modeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hustle-cloud-modeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		205DA8692617818D001BFC8A /* hustle_cloud_modeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hustle_cloud_modeTests.swift; sourceTree = "<group>"; };
+		205DA86B2617818D001BFC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205DA8702617818D001BFC8A /* hustle-cloud-modeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hustle-cloud-modeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		205DA8742617818D001BFC8A /* hustle_cloud_modeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hustle_cloud_modeUITests.swift; sourceTree = "<group>"; };
+		205DA8762617818D001BFC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205DA885261781A2001BFC8A /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		205DA84C2617818B001BFC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205DA8622617818D001BFC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205DA86D2617818D001BFC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		205DA8462617818B001BFC8A = {
+			isa = PBXGroup;
+			children = (
+				205DA8512617818B001BFC8A /* hustle-cloud-mode */,
+				205DA8682617818D001BFC8A /* hustle-cloud-modeTests */,
+				205DA8732617818D001BFC8A /* hustle-cloud-modeUITests */,
+				205DA8502617818B001BFC8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		205DA8502617818B001BFC8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				205DA84F2617818B001BFC8A /* hustle-cloud-mode.app */,
+				205DA8652617818D001BFC8A /* hustle-cloud-modeTests.xctest */,
+				205DA8702617818D001BFC8A /* hustle-cloud-modeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		205DA8512617818B001BFC8A /* hustle-cloud-mode */ = {
+			isa = PBXGroup;
+			children = (
+				205DA885261781A2001BFC8A /* hustle-on.wav */,
+				205DA8522617818B001BFC8A /* AppDelegate.swift */,
+				205DA8542617818B001BFC8A /* SceneDelegate.swift */,
+				205DA8562617818B001BFC8A /* ViewController.swift */,
+				205DA8582617818B001BFC8A /* Main.storyboard */,
+				205DA85B2617818D001BFC8A /* Assets.xcassets */,
+				205DA85D2617818D001BFC8A /* LaunchScreen.storyboard */,
+				205DA8602617818D001BFC8A /* Info.plist */,
+			);
+			path = "hustle-cloud-mode";
+			sourceTree = "<group>";
+		};
+		205DA8682617818D001BFC8A /* hustle-cloud-modeTests */ = {
+			isa = PBXGroup;
+			children = (
+				205DA8692617818D001BFC8A /* hustle_cloud_modeTests.swift */,
+				205DA86B2617818D001BFC8A /* Info.plist */,
+			);
+			path = "hustle-cloud-modeTests";
+			sourceTree = "<group>";
+		};
+		205DA8732617818D001BFC8A /* hustle-cloud-modeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				205DA8742617818D001BFC8A /* hustle_cloud_modeUITests.swift */,
+				205DA8762617818D001BFC8A /* Info.plist */,
+			);
+			path = "hustle-cloud-modeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		205DA84E2617818B001BFC8A /* hustle-cloud-mode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205DA8792617818D001BFC8A /* Build configuration list for PBXNativeTarget "hustle-cloud-mode" */;
+			buildPhases = (
+				205DA84B2617818B001BFC8A /* Sources */,
+				205DA84C2617818B001BFC8A /* Frameworks */,
+				205DA84D2617818B001BFC8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hustle-cloud-mode";
+			productName = "hustle-cloud-mode";
+			productReference = 205DA84F2617818B001BFC8A /* hustle-cloud-mode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		205DA8642617818D001BFC8A /* hustle-cloud-modeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205DA87C2617818D001BFC8A /* Build configuration list for PBXNativeTarget "hustle-cloud-modeTests" */;
+			buildPhases = (
+				205DA8612617818D001BFC8A /* Sources */,
+				205DA8622617818D001BFC8A /* Frameworks */,
+				205DA8632617818D001BFC8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				205DA8672617818D001BFC8A /* PBXTargetDependency */,
+			);
+			name = "hustle-cloud-modeTests";
+			productName = "hustle-cloud-modeTests";
+			productReference = 205DA8652617818D001BFC8A /* hustle-cloud-modeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		205DA86F2617818D001BFC8A /* hustle-cloud-modeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205DA87F2617818D001BFC8A /* Build configuration list for PBXNativeTarget "hustle-cloud-modeUITests" */;
+			buildPhases = (
+				205DA86C2617818D001BFC8A /* Sources */,
+				205DA86D2617818D001BFC8A /* Frameworks */,
+				205DA86E2617818D001BFC8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				205DA8722617818D001BFC8A /* PBXTargetDependency */,
+			);
+			name = "hustle-cloud-modeUITests";
+			productName = "hustle-cloud-modeUITests";
+			productReference = 205DA8702617818D001BFC8A /* hustle-cloud-modeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		205DA8472617818B001BFC8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					205DA84E2617818B001BFC8A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					205DA8642617818D001BFC8A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 205DA84E2617818B001BFC8A;
+					};
+					205DA86F2617818D001BFC8A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 205DA84E2617818B001BFC8A;
+					};
+				};
+			};
+			buildConfigurationList = 205DA84A2617818B001BFC8A /* Build configuration list for PBXProject "hustle-cloud-mode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 205DA8462617818B001BFC8A;
+			productRefGroup = 205DA8502617818B001BFC8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				205DA84E2617818B001BFC8A /* hustle-cloud-mode */,
+				205DA8642617818D001BFC8A /* hustle-cloud-modeTests */,
+				205DA86F2617818D001BFC8A /* hustle-cloud-modeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		205DA84D2617818B001BFC8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205DA886261781A2001BFC8A /* hustle-on.wav in Resources */,
+				205DA85F2617818D001BFC8A /* LaunchScreen.storyboard in Resources */,
+				205DA85C2617818D001BFC8A /* Assets.xcassets in Resources */,
+				205DA85A2617818B001BFC8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205DA8632617818D001BFC8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205DA86E2617818D001BFC8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		205DA84B2617818B001BFC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205DA8572617818B001BFC8A /* ViewController.swift in Sources */,
+				205DA8532617818B001BFC8A /* AppDelegate.swift in Sources */,
+				205DA8552617818B001BFC8A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205DA8612617818D001BFC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205DA86A2617818D001BFC8A /* hustle_cloud_modeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205DA86C2617818D001BFC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205DA8752617818D001BFC8A /* hustle_cloud_modeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		205DA8672617818D001BFC8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 205DA84E2617818B001BFC8A /* hustle-cloud-mode */;
+			targetProxy = 205DA8662617818D001BFC8A /* PBXContainerItemProxy */;
+		};
+		205DA8722617818D001BFC8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 205DA84E2617818B001BFC8A /* hustle-cloud-mode */;
+			targetProxy = 205DA8712617818D001BFC8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		205DA8582617818B001BFC8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				205DA8592617818B001BFC8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		205DA85D2617818D001BFC8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				205DA85E2617818D001BFC8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		205DA8772617818D001BFC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		205DA8782617818D001BFC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		205DA87A2617818D001BFC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K3ZY7N65G;
+				INFOPLIST_FILE = "hustle-cloud-mode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "T.V.M.hustle-cloud-mode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		205DA87B2617818D001BFC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K3ZY7N65G;
+				INFOPLIST_FILE = "hustle-cloud-mode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "T.V.M.hustle-cloud-mode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		205DA87D2617818D001BFC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K3ZY7N65G;
+				INFOPLIST_FILE = "hustle-cloud-modeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "T.V.M.hustle-cloud-modeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hustle-cloud-mode.app/hustle-cloud-mode";
+			};
+			name = Debug;
+		};
+		205DA87E2617818D001BFC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K3ZY7N65G;
+				INFOPLIST_FILE = "hustle-cloud-modeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "T.V.M.hustle-cloud-modeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hustle-cloud-mode.app/hustle-cloud-mode";
+			};
+			name = Release;
+		};
+		205DA8802617818D001BFC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K3ZY7N65G;
+				INFOPLIST_FILE = "hustle-cloud-modeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "T.V.M.hustle-cloud-modeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hustle-cloud-mode";
+			};
+			name = Debug;
+		};
+		205DA8812617818D001BFC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K3ZY7N65G;
+				INFOPLIST_FILE = "hustle-cloud-modeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "T.V.M.hustle-cloud-modeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hustle-cloud-mode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		205DA84A2617818B001BFC8A /* Build configuration list for PBXProject "hustle-cloud-mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205DA8772617818D001BFC8A /* Debug */,
+				205DA8782617818D001BFC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205DA8792617818D001BFC8A /* Build configuration list for PBXNativeTarget "hustle-cloud-mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205DA87A2617818D001BFC8A /* Debug */,
+				205DA87B2617818D001BFC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205DA87C2617818D001BFC8A /* Build configuration list for PBXNativeTarget "hustle-cloud-modeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205DA87D2617818D001BFC8A /* Debug */,
+				205DA87E2617818D001BFC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205DA87F2617818D001BFC8A /* Build configuration list for PBXNativeTarget "hustle-cloud-modeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205DA8802617818D001BFC8A /* Debug */,
+				205DA8812617818D001BFC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 205DA8472617818B001BFC8A /* Project object */;
+}
